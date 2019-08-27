@@ -1,0 +1,22 @@
+<svg width="900" height="900">
+
+    <path d="M30,30 L230,30 Q250,30 250,50 L250,250 Q250,270 230,270 L30,270 Q10,270 10,250 L10,50 Q10,30 30,30" stroke="#f0b92e" stroke-width="8" fill="#f5d669" />
+    
+    <ellipse cx="175" cy="215" rx="50" ry="15" stroke="#613606" fill="#613606" stroke-width="5"/>
+    <ellipse cx="145" cy="225" rx="35" ry="15" stroke="#613606" fill="#613606" stroke-width="5"/>
+    
+    <path fill="white" d="
+                          M 85,100 
+                          L 175,100 
+                          Q 180,100 180,105 
+                          L 180,170
+                          Q 180,225 140,225
+                          L 120,225
+                          Q 80,225 80,170
+                          L 80,110
+                          Q 80,100 85,100"/>
+    <path fill="none" stroke="white" stroke-width="11" d="M100,170 C40,210 40,85 100,125"/>
+    
+    <path fill="#613606" stroke="#613606" stroke-width="7" d="M150,100 Q145,190 140,100" />
+    <circle cx="145" cy="165" r="3" stroke="#613606" fill="transparent" stroke-width="5"/>
+  </svg>
