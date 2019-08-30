@@ -1,1 +1,1 @@
-TweenLite.to("#cup", 1, {opacity: 0, y: 50});
+TweenLite.to("#smoke1", 1, {opacity: 0, y: -30});
