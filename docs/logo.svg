@@ -1,6 +1,6 @@
 <svg width="900" height="900">
 
-    <path style="transform-origin: center" d="M30,30 L230,30 Q250,30 250,50 L250,250 Q250,270 230,270 L30,270 Q10,270 10,250 L10,50 Q10,30 30,30" stroke="#f0b92e" stroke-width="8" fill="#f5d669" />
+    <path d="M30,30 L230,30 Q250,30 250,50 L250,250 Q250,270 230,270 L30,270 Q10,270 10,250 L10,50 Q10,30 30,30" stroke="#f0b92e" stroke-width="8" fill="#f5d669" />
     
     <ellipse cx="175" cy="215" rx="50" ry="15" stroke="#613606" fill="#613606" stroke-width="5"/>
     <ellipse cx="145" cy="225" rx="35" ry="15" stroke="#613606" fill="#613606" stroke-width="5"/>
