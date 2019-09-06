@@ -27,18 +27,28 @@ function splat() {
 }
 
 const background = document.getElementById("background");
+const smokeStain = document.getElementById("stains-smokes");
 background.addEventListener("click", pop);
 logo.addEventListener("click", cupPop);
+smokeStain.addEventListener("click", stainPop);
+
+function popAnimate(timeline){
+    timeline.to("#cup-handle", 0.05, {y: -5});
+    timeline.to("#cup-handle", 0.05, {y: 0});
+}
 
 function pop(){
     const clickTimeline = new TimelineMax({});
-    clickTimeline.to("#cup-handle", 0.05, {y: -5});
-    clickTimeline.to("#cup-handle", 0.05, {y: 0});
+    popAnimate(clickTimeline);
 }
 
 function cupPop(){
     const cupTimeline = new TimelineMax({});
-    cupTimeline.to("#cup-handle", 0.05, {y: -5});
-    cupTimeline.to("#cup-handle", 0.05, {y: 0});
+    popAnimate(cupTimeline);
+}
+
+function stainPop(){
+    const stainTimeLine = new TimelineMax({});
+    popAnimate(stainTimeLine);
 }
 

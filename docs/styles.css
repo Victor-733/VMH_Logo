@@ -1,15 +1,10 @@
 body {
-    width: 60em;
+    max-width: 60em;
     margin: 0 auto;
     text-align: center;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-small {
-    display: flex;
-    justify-content: center;
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
